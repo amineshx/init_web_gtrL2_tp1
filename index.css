@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url(https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap);
+:root{
+    --font-style: 'Nunito Sans', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: #131315;
+    font-family: var(--font-style);
+}
+h1{
+    color: #fff;
+    text-align: center;
+}    
+p {
+    color: #fff;
+    text-align: center;
+}   
+.my-links{
+    width: 400px;
+    height: 75px;
+    margin: auto;
+    margin-top: 100px;
+} 
+a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #CBBDDB;
+    font-size: 16px;
+}
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a:hover {
+    color: rgba(255, 0, 0, 0.815);
+}
